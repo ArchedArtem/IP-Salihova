@@ -401,3 +401,75 @@ p{
     background-color: #623E30;
 }
 
+/* SECTION FORM */
+
+.section-form{
+    margin-top: 5%;
+}
+
+.section-form .container h2{
+    font-size: 48px;
+    color: #E2B551;
+    text-align: center;
+    font-family: "RobotoBold", sans-serif;
+}
+
+.section-form .container .p-zag{
+    font-size: 24px;
+    text-align: center;
+    font-family: "RobotoBold", sans-serif;
+}
+
+.section-form .container input{
+    width: 550px;
+    height: 50px;
+    border: #623E30 3px solid;
+    border-radius: 20px;
+    padding-left: 2%;
+}
+
+.section-form .container .vvod p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.section-form .container .politica{
+    font-size: 14px;
+    text-align: center;
+    width: 80%;
+    margin-top: 2%;
+}
+
+.section-form .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-form .container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-form .container .vvod{
+    margin-top: 3%;
+}
+
+.section-form .container form button{
+    width: 375px;
+    height: 60px;
+    color: white;
+    font-size: 24px;
+    background-color: #623E30;
+    border-radius: 50px;
+    transition: .3s;
+    margin-top: 3%;
+}
+
+.section-form .container form button:hover{
+    background-color: #E2B551;
+    transition: .5s;
+}
