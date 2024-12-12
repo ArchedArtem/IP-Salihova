@@ -14,7 +14,45 @@ a {
     color: inherit;
 }
 
+p{
+    color: #623E30;
+}
+
 .container {
     width: 1200px;
     margin: 0 auto;
+}
+
+/* SECTION NAVIGATION */
+
+.section-navigation .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-navigation .container .text-1{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    font-size: 24px;
+}
+
+.section-navigation .container .text-2{
+    text-align: right;
+    font-size: 20px;
+}
+
+.section-navigation .container .text-2 p{
+    margin-bottom: 0px;
+}
+
+.section-navigation .container .text-1 p{
+    transition: .3s;
+}
+
+.section-navigation .container .text-1 p:hover{
+    border-bottom: #623E30 solid 4px;
+    transition: .5s;
+    cursor: pointer;
 }
