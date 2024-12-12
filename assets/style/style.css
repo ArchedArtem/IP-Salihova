@@ -194,3 +194,50 @@ p{
     width: 15%;
     margin-left: 10%;
 }
+
+.section-about .container .expertision{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-about .container .expertision .name{
+    width: 43%;
+}
+
+.section-about .container .expertision .name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-about .container .expertision .name p{
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+
+.section-about .container .expertision .blocks .block{
+    width: 350px;
+    height: 200px;
+    border: #623E30 solid 4px;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 4%;
+}
+
+.section-about .container .expertision .blocks .block .text-p{
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.section-about .container .expertision .blocks .block span p{
+    font-size: 32px;
+    font-family: "RobotoBold", sans-serif;
+    margin-bottom: 0px;
+}
+
+.section-about .container .expertision .blocks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
