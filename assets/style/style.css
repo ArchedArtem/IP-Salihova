@@ -1,0 +1,20 @@
+@import url(./fonts.css);
+
+* {
+    font-family: 'RobotoRegular', sans-serif;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+a {
+    color: inherit;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}

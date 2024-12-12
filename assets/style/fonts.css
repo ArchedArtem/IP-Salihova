@@ -1,0 +1,19 @@
+@font-face{
+    font-family: 'GreatVibes';
+    src: url(../fonts/GreatVibes-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'RobotoRegular';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'RobotoBold';
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face{
+    font-family: 'RobotoLight';
+    src: url(../fonts/Roboto-Light.ttf);
+}
