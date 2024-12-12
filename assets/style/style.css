@@ -121,3 +121,76 @@ p{
     background-color: #E2B551;
     transition: .5s;
 }
+
+/* SECTION ABOUT */
+
+.section-about{
+    margin-top: 5%;
+}
+
+.section-about .container .education{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-about .container .education .name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 24%;
+}
+
+.section-about .container .education .name p{
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+
+.section-about .container .education .road .punkt{
+    width: 20px;
+    height: 20px;
+    background-color: #623E30;
+    border-radius: 1000px;
+}
+
+.section-about .container .education .stroke{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-about .container .education .road{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-about .container .education .road .text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+
+.section-about .container .education .road .text p{
+    margin-bottom: 0px;
+    font-size: 20px;
+    width: 90%;
+}
+
+.section-about .container .education .road .arrow{
+    width: 25%;
+    color: #623E30;
+}
+
+.section-about .container .education .road .last-p{
+    font-size: 20px;
+    text-align: center;
+    width: 30%;
+    margin-top: 3%;
+}
+
+.section-about .container .education .road .arrow-last{
+    width: 15%;
+    margin-left: 10%;
+}
