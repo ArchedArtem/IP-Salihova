@@ -241,3 +241,32 @@ p{
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+.section-about .container .clients{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-about .container .clients .name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+
+.section-about .container .clients .name p{
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+
+.section-about .container .clients span p{
+    font-size: 26px;
+    margin-top: 1.5%;
+}
+
+.section-about .container .clients .imgs{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
