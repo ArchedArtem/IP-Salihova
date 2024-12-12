@@ -350,3 +350,54 @@ p{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+/* SECTION OTZIV */
+
+.section-otziv{
+    margin-top: 5%;
+}
+
+.section-otziv .container h2{
+    font-size: 48px;
+    color: #E2B551;
+    text-align: center;
+    font-family: "RobotoBold", sans-serif;
+}
+
+.section-otziv .container .slide{
+    margin-top: 3%;
+}
+
+.section-otziv .container .slide .telo{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-otziv .container .slide .carousel-item{
+    height: 600px;
+}
+
+.section-otziv .container .slide .telo p{
+    text-align: center;
+    width: 80%;
+    align-self: center;
+}
+
+.section-otziv .container .slide .telo span p{
+    font-size: 24px;
+    font-family: "RobotoBold", sans-serif;
+    text-align: left;
+}
+
+.section-otziv .container .slide .carousel-indicators button{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: #623E30 solid 4px;
+    margin-left: 3%;
+}
+
+.section-otziv .container .slide .carousel-indicators .active{
+    background-color: #623E30;
+}
+
