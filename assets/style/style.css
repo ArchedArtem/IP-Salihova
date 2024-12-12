@@ -311,3 +311,42 @@ p{
     width: 55%;
     margin-top: 1%;
 }
+
+/* SECTION YSLYG */
+
+.section-yslyg {
+    margin-top: 5%;
+}
+
+.section-yslyg .container h2{
+    font-size: 48px;
+    font-family: "RobotoBold", sans-serif;
+    color: #E2B551;
+    text-align: center;
+}
+
+.section-yslyg .container .cards .card{
+    border: none;
+    width: 45%;
+    margin-top: 4%;
+}
+
+.section-yslyg .container .cards .card .top{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #623E30 solid 4px;
+}
+
+.section-yslyg .container .cards .card .top p{
+    font-size: 22px;
+}
+
+.section-yslyg .container .cards .card .bottom-p{
+    margin-top: 4%;
+}
+
+.section-yslyg .container .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
