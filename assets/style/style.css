@@ -535,3 +535,11 @@ p{
 .section-books .container .cards .card:nth-child(2) a{
     margin-top: 20%;
 }
+
+/* SECTION CARD */
+
+.section-card{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
