@@ -473,3 +473,65 @@ p{
     background-color: #E2B551;
     transition: .5s;
 }
+
+/* SECTION BOOKS */
+
+.section-books{
+    margin-top: 5%;
+}
+
+.section-books .container h2{
+    font-size: 48px;
+    color: #E2B551;
+    text-align: center;
+    font-family: "RobotoBold", sans-serif;
+}
+
+.section-books .container .cards .card{
+    width: 350px;
+    height: 262px;
+    border: #623E30 solid 4px;
+    border-radius: 4%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section-books .container .cards .card h4{
+    font-size: 26px;
+    font-family: "RobotoBold", sans-serif;
+    color: #623E30;
+}
+
+.section-books .container .cards .card p{
+    font-size: 18px;
+    color: #623E30;
+    font-weight: 600;
+}
+
+.section-books .container .cards .card a{
+    align-self: center;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin-top: 3%;
+}
+
+.section-books .container .cards .card a p{
+    margin-bottom: 0px;
+}
+
+.section-books .container .cards{
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-books .container .cards .card:nth-child(2) a{
+    margin-top: 20%;
+}
