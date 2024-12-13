@@ -51,6 +51,10 @@ p{
     transition: .3s;
 }
 
+.section-navigation .container .text-1 a{
+    text-decoration: none;
+}
+
 .section-navigation .container .text-1 p:hover{
     border-bottom: #623E30 solid 4px;
     transition: .5s;
@@ -543,3 +547,133 @@ p{
     margin-bottom: 5%;
 }
 
+/* FOOTER */
+
+footer{
+    padding: 2%;
+    background-color: #fbf4e5;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .container .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .container .icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
+}
+
+footer .container .text p{
+    font-size: 20px;
+}
+
+footer .container .ip-p{
+    font-size: 24px;
+}
+
+/* SECTION HOME */
+
+.section-home .modal-dialog{
+    max-width: 1550px;
+    max-height: 890px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-home .modal-content{
+    height: 100%;
+}
+
+.section-home .modal-content h2{
+    font-size: 48px;
+    font-family: "RobotoBold", sans-serif;
+    text-align: center;
+    color: #623E30;
+    align-self: center;
+}
+
+.section-home .modal-content .modal-header{
+    border-bottom: none;
+    display: flex;
+    justify-content: end;
+}
+
+.section-home .modal-content .modal-header a{
+    text-decoration: underline;
+    color: #623E30;
+    font-size: 22px;
+}
+
+.section-home .modal-content .modal-body .p-zag{
+    font-size: 24px;
+    font-family: "RobotoBold", sans-serif;
+    text-align: center;
+}
+
+.section-home .modal-content .modal-body input{
+    width: 550px;
+    height: 50px;
+    border: #623E30 3px solid;
+    color: #623E30;
+}
+
+.section-home .modal-content .modal-body label{
+    font-size: 20px;
+    font-family: "RobotoBold", sans-serif;
+    color: #623E30;
+}
+
+.section-home .modal-content .modal-body .btn-success{
+    width: 375px;
+    height: 60px;
+    background-color: #623E30;
+    font-size: 24px;
+    border-radius: 50px;
+    margin-top: 3%;
+    transition: .3s;
+    border: none;
+}
+
+.section-home .modal-content .modal-body .btn-success:hover{
+    background-color: #E2B551;
+    transition: .5s;
+}
+
+.section-home .modal-content .modal-body .politica{
+    width: 60%;
+    text-align: center;
+}
+
+.section-home .modal-content .modal-body{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-home .modal-content .modal-body form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-home .modal-content .modal-body form .vvod{
+    margin-top: 1.5%;
+}
+
+.section-home .container .btn-primary{
+    border: none;
+}

@@ -19,9 +19,9 @@
         <div class="container">
             <img src="./assets/img/logo runa s 1.png" alt="">
             <div class="text-1">
-                <p>Обо мне</p>
-                <p>Услуги и цены</p>
-                <p>Контакты</p>
+                <a href="#about"><p>Обо мне</p></a>
+                <a href="#yslygi"><p>Услуги и цены</p></a>
+                <a href="#contact"><p>Контакты</p></a>
             </div>
             <div class="text-2">
                 <p>+79202532136</p>
@@ -42,12 +42,46 @@
                     <p>С 2016 года профессиональный коуч. член Ассоциации русско-язычных коучей (коуч АРК).</p>
                 </span>
                 <p>В своей работе я помогаю клиентам находить и соединяться с собой истинным.</p>
-                <button>Записаться</button>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Записаться</button>
+            </div>
+        </div>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <a href="" data-bs-dismiss="modal" aria-label="Close">Закрыть</a>
+                    </div>
+                    <div class="modal-body">
+                        <h2 class="modal-title" id="exampleModalLabel">Записаться на "химическую" встречу</h2>
+                        <p class="p-zag">Оставьте заявку и я свяжусь с вами</p>
+                        <form action="">
+                            <div class="vvod mb-3">
+                                <label for="name" class="form-label">Ваше имя</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="vvod mb-3">
+                                <label for="phone" class="form-label">Ваш телефон</label>
+                                <input type="tel" class="form-control" id="phone" required>
+                            </div>
+                            <div class="vvod mb-3">
+                                <label for="email" class="form-label">Ваш email</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <button type="submit" class="btn btn-success">Оставить заявку</button>
+                            <p class="politica mt-3">
+                                Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь
+                                с политикой конфиденциальности
+                            </p>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="section section-about">
+    <div class="section section-about" id="about">
         <div class="container">
             <div class="education">
                 <div class="name">
@@ -229,7 +263,7 @@
         </div>
     </div>
 
-    <div class="section section-yslyg">
+    <div class="section section-yslyg" id="yslygi">
         <div class="container">
             <h2>Услуги и цены</h2>
             <div class="cards">
@@ -454,7 +488,7 @@
         </div>
     </div>
 
-    <div class="section section-form">
+    <div class="section section-form" id="contact">
         <div class="container">
             <h2>Записаться на "химическую" встречу</h2>
             <p class="p-zag">Оставьте заявку и я свяжусь с вами</p>
@@ -518,5 +552,21 @@
 
     </div>
 </body>
+
+<footer>
+    <div class="container">
+        <p class="ip-p">ИП “Надежда Салихова”</p>
+        <div class="text">
+            <p>Телефон: +7 920 253 2136</p>
+            <p>Почта: nadin_salihova@mail.ru</p>
+            <p>Нижний Новгород, ул. Нестерова, 9, оф. 609А</p>
+        </div>
+        <div class="icons">
+            <a href="https://vk.com/id168728661"><img src="./assets/img/vk.svg" alt=""></a>
+            <a href="https://t.me/nadinsalihova"><img src="./assets/img/tg.svg" alt=""></a>
+            <a href="https://wa.me/79202532136"><img src="./assets/img/watsapp.svg" alt=""></a>
+        </div>
+    </div>
+</footer>
 
 </html>
