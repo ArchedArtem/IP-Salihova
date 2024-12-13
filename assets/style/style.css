@@ -677,3 +677,208 @@ footer .container .ip-p{
 .section-home .container .btn-primary{
     border: none;
 }
+
+/* ADAPTIVE */
+
+@media (max-width: 1500px) {
+    .container {
+        width: 1440px;
+    }
+
+    .section-about .container .education .name{
+        width: 28%;
+    }
+
+    .section-about .container .education .road .text p, .section-about .container .education .road .last-p{
+        font-size: 17px;
+    }
+
+    .section-about .container .expertision .name {
+        width: 50%;
+    }
+
+    .section-about .container .clients .name{
+        width: 23%;
+    }
+
+    .section-about .container .publication .name p{
+        margin-bottom: 0px;
+    }
+
+    .section-about .container .publication .name{
+        width: 27%;
+    }
+
+    .section-otziv .container .slide .carousel-item {
+        height: 650px;
+    }
+
+    footer .container .text p {
+        font-size: 16px;
+    }
+
+    footer .container .ip-p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+
+    .section-navigation .container .text-1 p{
+        font-size: 20px;
+    }
+
+    .section-home .container .photo img{
+        width: 100%;
+    }
+
+    .section-home .container .photo {
+        width: 40%;
+    }
+
+    .section-home .container .photo p{
+        font-size: 20px;
+    }
+
+    .section-home .container .text h3{
+        font-size: 36px;
+    }
+
+    .section-home .container .text span p{
+        font-size: 20px;
+    }
+
+    .section-home .container .text p{
+        font-size: 20px;
+    }
+
+    .section-home .modal-dialog{
+        max-width: 900px;
+        max-height: 600px;
+    }
+
+    .section-home .modal-content .modal-body{
+        padding-top: 0;
+    }
+
+    .section-home .modal-content h2{
+        font-size: 36px;
+    }
+
+    .section-home .modal-content .modal-body .p-zag{
+        font-size: 20px;
+    }
+
+    .section-home .modal-content .modal-header a{
+        font-size: 18px;
+    }
+
+    .section-home .modal-content .modal-body label{
+        font-size: 16px;
+    }
+
+    .section-about .container .education .name {
+        width: 33%;
+    }
+
+    .section-about .container .education .road .text p, .section-about .container .education .road .last-p {
+        font-size: 16px;
+    }
+
+    .section-about .container .expertision .name {
+        width: 59%;
+    }
+
+    .section-about .container .clients .name {
+        width: 27%;
+    }
+
+    .section-about .container .clients span p{
+        font-size: 22px;
+    }
+
+    .section-about .container .clients .imgs{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .section-about .container .publication .name {
+        width: 32%;
+    }
+
+    .section-about .container .publication span p, .section-about .container .publication .book p{
+        font-size: 22px;
+    }
+
+    .section-yslyg .container .cards .card .top p {
+        font-size: 18px;
+    }
+
+    .section-yslyg .container .cards .card .bottom-p{
+        font-size: 14px;
+    }
+
+    .section-otziv .container .slide .telo span p{
+        font-size: 19px;
+    }
+
+    .section-otziv .container .slide .telo p{
+        font-size: 15px;
+    }
+
+    .section-form .container .p-zag{
+        font-size: 20px;
+    }
+
+    .section-form .container .vvod p{
+        font-size: 16px;
+    }
+
+    .section-books .container .cards{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .section-books .container .cards .card:nth-child(3){
+        margin-top: 3%;
+    }
+
+    .section-books .container .cards .card h4{
+        font-size: 24px;
+    }
+
+    .section-books .container .cards .card p{
+        font-size: 16px;
+    }
+
+    .section-books .container .cards .card:nth-child(3) a{
+        margin-top: 10%;
+    }
+
+    footer .container .text p {
+        font-size: 14px;
+    }
+
+    footer .container .ip-p {
+        font-size: 16px;
+    }
+
+    footer .container .icons img{
+        width: 40px;
+        height: 40px;
+    }
+
+    h2{
+        font-size: 36px !important;
+    }
+
+}    
+
+@media (max-width: 992px) {
+    .container {
+        width: 960px;
+    }
+}
