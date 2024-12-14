@@ -1479,9 +1479,126 @@ footer .container .ip-p {
     footer .container .ip-p {
         font-size: 10px;
     }
+
+    .section-about {
+        margin-top: 10%;
+    }
 }
 
 @media (max-width: 480px) {
+    .container {
+        width: 98%;
+    }
+
+    .section-home .container .text span p {
+        font-size: 13px;
+    }
+
+    .section-home .container .text p {
+        font-size: 14px;
+    }
+
+    .section-home {
+        margin-top: 40%;
+    }
+
+    .section-home .modal-dialog{
+        max-width: 350px;
+        max-height: 550px;
+    }
+
+    .section-home .modal-content .modal-body .politica {
+        font-size: 8px;
+        width: 90%;
+    }
+
+    .section-about .container .education .name {
+        width: 60%;
+    }
+
+    .container .expertision .name p{
+        margin-left: 5%;
+    }
+
+    .section-about .container .expertision .blocks .block{
+        width: 300px;
+    }
+
+    .section-about .container .expertision .blocks .block .text-p {
+        font-size: 12px;
+    }
+
+    .section-about .container .clients .name {
+        width: 47%;
+    }
+
+    .section-about .container .publication .name {
+        width: 57%;
+    }
+
+    .section-otziv .container .slide .carousel-item {
+        height: 550px;
+    }
+
+    .section-form .container input {
+        width: 300px;
+    }
+
+    .section-form .container .vvod p{
+        margin-bottom: 5px;
+    }
+
+    .section-form .container .politica{
+        font-size: 8px;
+    }
+
+    .section-books .container .cards .card{
+        width: 300px;
+        border-radius: 4.5%;
+    }
+
+    .section-books .container .cards .card:nth-child(3){
+        margin-top: 0%;
+    }
+
+    .section-books .container .cards .card{
+        margin-top: 3% !important;
+    }
+
+    .section-books .container .cards .card h4 {
+        font-size: 16px;
+    }
+
+    .section-books .container .cards .card p {
+        font-size: 13px;
+    }
+
+    .section-books .container .cards .card:nth-child(3) a {
+        margin-top: 3%;
+    }
+
+    .section-books .container .cards .card:nth-child(2) a {
+        margin-top: 17%;
+    }
+
+    footer .container{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5%;
+    }
+
+    footer .container .icons {
+        width: 35%;
+    }
+
+    footer .container .ip-p{
+        margin-bottom: 5px;
+    }
+
+}
+
+@media (max-width: 370px) {
     .container {
         width: 98%;
     }
