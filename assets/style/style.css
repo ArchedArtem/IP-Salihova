@@ -1396,6 +1396,14 @@ footer .container .ip-p {
         width: 98%;
     }
 
+    .section-navigation .navbar a img{
+        transform: scale(0.7);
+    }
+
+    .section-navigation .container nav{
+        height: 100px;
+    }
+
     .section-navigation .offcanvas-end {
         width: 70% !important;
     }
