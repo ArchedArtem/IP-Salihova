@@ -14,7 +14,7 @@ a {
     color: inherit;
 }
 
-p{
+p {
     color: #623E30;
 }
 
@@ -25,37 +25,41 @@ p{
 
 /* SECTION NAVIGATION */
 
-.section-navigation .container{
+.section-navigation .container nav {
+    display: none;
+}
+
+.section-navigation .container .nav-comp {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.section-navigation .container .text-1{
+.section-navigation .container .nav-comp .text-1 {
     display: flex;
     justify-content: space-between;
     width: 40%;
     font-size: 24px;
 }
 
-.section-navigation .container .text-2{
+.section-navigation .container .nav-comp .text-2 {
     text-align: right;
     font-size: 20px;
 }
 
-.section-navigation .container .text-2 p{
+.section-navigation .container .nav-comp .text-2 p {
     margin-bottom: 0px;
 }
 
-.section-navigation .container .text-1 p{
+.section-navigation .container .nav-comp .text-1 p {
     transition: .3s;
 }
 
-.section-navigation .container .text-1 a{
+.section-navigation .container .nav-comp .text-1 a {
     text-decoration: none;
 }
 
-.section-navigation .container .text-1 p:hover{
+.section-navigation .container .nav-comp .text-1 p:hover {
     border-bottom: #623E30 solid 4px;
     transition: .5s;
     cursor: pointer;
@@ -63,21 +67,21 @@ p{
 
 /* SECTION HOME */
 
-.section-home{
+.section-home {
     margin-top: 5%;
 }
 
-.section-home .container{
+.section-home .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.section-home .container .photo{
+.section-home .container .photo {
     width: 449px;
 }
 
-.section-home .container .photo p{
+.section-home .container .photo p {
     width: 100%;
     font-family: "GreatVibes", sans-serif;
     text-align: center;
@@ -85,30 +89,30 @@ p{
     margin-top: 5%;
 }
 
-.section-home .container .text{
+.section-home .container .text {
     width: 55%;
     display: flex;
     flex-direction: column;
 }
 
-.section-home .container .text h3{
+.section-home .container .text h3 {
     text-align: center;
     font-family: "GreatVibes", sans-serif;
     font-size: 48px;
 }
 
-.section-home .container .text p{
+.section-home .container .text p {
     font-size: 24px;
     text-align: center;
 }
 
-.section-home .container .text span p{
+.section-home .container .text span p {
     color: #E2B551;
     text-align: center;
-    font-size: 24px ;
+    font-size: 24px;
 }
 
-.section-home .container .text button{
+.section-home .container .text button {
     align-self: center;
     margin-top: 10%;
     width: 248px;
@@ -121,47 +125,47 @@ p{
     transition: .3s;
 }
 
-.section-home .container .text button:hover{
+.section-home .container .text button:hover {
     background-color: #E2B551;
     transition: .5s;
 }
 
 /* SECTION ABOUT */
 
-.section-about{
+.section-about {
     margin-top: 5%;
 }
 
-.section-about .container .education{
+.section-about .container .education {
     display: flex;
     flex-direction: column;
 }
 
-.section-about .container .education .name{
+.section-about .container .education .name {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 24%;
 }
 
-.section-about .container .education .name p{
+.section-about .container .education .name p {
     font-size: 32px;
     margin-bottom: 0px;
 }
 
-.section-about .container .education .road .punkt{
+.section-about .container .education .road .punkt {
     width: 20px;
     height: 20px;
     background-color: #623E30;
     border-radius: 1000px;
 }
 
-.section-about .container .education .stroke{
+.section-about .container .education .stroke {
     display: flex;
     justify-content: space-between;
 }
 
-.section-about .container .education .road{
+.section-about .container .education .road {
     margin-top: 3%;
     display: flex;
     flex-direction: column;
@@ -169,58 +173,58 @@ p{
     align-items: center;
 }
 
-.section-about .container .education .road .text{
+.section-about .container .education .road .text {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 30%;
 }
 
-.section-about .container .education .road .text p{
+.section-about .container .education .road .text p {
     margin-bottom: 0px;
     font-size: 20px;
     width: 90%;
 }
 
-.section-about .container .education .road .arrow{
+.section-about .container .education .road .arrow {
     width: 25%;
     color: #623E30;
 }
 
-.section-about .container .education .road .last-p{
+.section-about .container .education .road .last-p {
     font-size: 20px;
     text-align: center;
     width: 30%;
     margin-top: 3%;
 }
 
-.section-about .container .education .road .arrow-last{
+.section-about .container .education .road .arrow-last {
     width: 15%;
     margin-left: 10%;
 }
 
-.section-about .container .expertision{
+.section-about .container .expertision {
     margin-top: 3%;
     display: flex;
     flex-direction: column;
 }
 
-.section-about .container .expertision .name{
+.section-about .container .expertision .name {
     width: 43%;
 }
 
-.section-about .container .expertision .name{
+.section-about .container .expertision .name {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.section-about .container .expertision .name p{
+.section-about .container .expertision .name p {
     font-size: 32px;
     margin-bottom: 0px;
 }
 
-.section-about .container .expertision .blocks .block{
+.section-about .container .expertision .blocks .block {
     width: 350px;
     height: 200px;
     border: #623E30 solid 4px;
@@ -229,87 +233,87 @@ p{
     margin-top: 4%;
 }
 
-.section-about .container .expertision .blocks .block .text-p{
+.section-about .container .expertision .blocks .block .text-p {
     font-size: 15px;
     margin-bottom: 0px;
 }
 
-.section-about .container .expertision .blocks .block span p{
+.section-about .container .expertision .blocks .block span p {
     font-size: 32px;
     font-family: "RobotoBold", sans-serif;
     margin-bottom: 0px;
 }
 
-.section-about .container .expertision .blocks{
+.section-about .container .expertision .blocks {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.section-about .container .clients{
+.section-about .container .clients {
     margin-top: 3%;
     display: flex;
     flex-direction: column;
 }
 
-.section-about .container .clients .name{
+.section-about .container .clients .name {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 20%;
 }
 
-.section-about .container .clients .name p{
+.section-about .container .clients .name p {
     font-size: 32px;
     margin-bottom: 0px;
 }
 
-.section-about .container .clients span p{
+.section-about .container .clients span p {
     font-size: 26px;
     margin-top: 1.5%;
 }
 
-.section-about .container .clients .imgs{
+.section-about .container .clients .imgs {
     display: flex;
     justify-content: space-between;
     margin-top: 2%;
 }
 
-.section-about .container .publication{
+.section-about .container .publication {
     margin-top: 4%;
     display: flex;
     flex-direction: column;
 }
 
-.section-about .container .publication .name{
+.section-about .container .publication .name {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 24%;
 }
 
-.section-about .container .publication .name p{
+.section-about .container .publication .name p {
     font-size: 32px;
 }
 
-.section-about .container .publication span p{
+.section-about .container .publication span p {
     font-size: 26px;
     margin-top: 1.5%;
     margin-bottom: 2%;
 }
 
-.section-about .container .publication .book img{
+.section-about .container .publication .book img {
     width: 288px;
 }
 
-.section-about .container .publication .book{
+.section-about .container .publication .book {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 
-.section-about .container .publication .book p{
+.section-about .container .publication .book p {
     font-size: 26px;
     text-align: center;
     width: 55%;
@@ -322,34 +326,34 @@ p{
     margin-top: 5%;
 }
 
-.section-yslyg .container h2{
+.section-yslyg .container h2 {
     font-size: 48px;
     font-family: "RobotoBold", sans-serif;
     color: #E2B551;
     text-align: center;
 }
 
-.section-yslyg .container .cards .card{
+.section-yslyg .container .cards .card {
     border: none;
     width: 45%;
     margin-top: 4%;
 }
 
-.section-yslyg .container .cards .card .top{
+.section-yslyg .container .cards .card .top {
     display: flex;
     justify-content: space-between;
     border-bottom: #623E30 solid 4px;
 }
 
-.section-yslyg .container .cards .card .top p{
+.section-yslyg .container .cards .card .top p {
     font-size: 22px;
 }
 
-.section-yslyg .container .cards .card .bottom-p{
+.section-yslyg .container .cards .card .bottom-p {
     margin-top: 4%;
 }
 
-.section-yslyg .container .cards{
+.section-yslyg .container .cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -357,43 +361,43 @@ p{
 
 /* SECTION OTZIV */
 
-.section-otziv{
+.section-otziv {
     margin-top: 5%;
 }
 
-.section-otziv .container h2{
+.section-otziv .container h2 {
     font-size: 48px;
     color: #E2B551;
     text-align: center;
     font-family: "RobotoBold", sans-serif;
 }
 
-.section-otziv .container .slide{
+.section-otziv .container .slide {
     margin-top: 3%;
 }
 
-.section-otziv .container .slide .telo{
+.section-otziv .container .slide .telo {
     display: flex;
     flex-direction: column;
 }
 
-.section-otziv .container .slide .carousel-item{
+.section-otziv .container .slide .carousel-item {
     height: 600px;
 }
 
-.section-otziv .container .slide .telo p{
+.section-otziv .container .slide .telo p {
     text-align: center;
     width: 80%;
     align-self: center;
 }
 
-.section-otziv .container .slide .telo span p{
+.section-otziv .container .slide .telo span p {
     font-size: 24px;
     font-family: "RobotoBold", sans-serif;
     text-align: left;
 }
 
-.section-otziv .container .slide .carousel-indicators button{
+.section-otziv .container .slide .carousel-indicators button {
     width: 30px;
     height: 30px;
     border-radius: 100%;
@@ -401,30 +405,30 @@ p{
     margin-left: 3%;
 }
 
-.section-otziv .container .slide .carousel-indicators .active{
+.section-otziv .container .slide .carousel-indicators .active {
     background-color: #623E30;
 }
 
 /* SECTION FORM */
 
-.section-form{
+.section-form {
     margin-top: 5%;
 }
 
-.section-form .container h2{
+.section-form .container h2 {
     font-size: 48px;
     color: #E2B551;
     text-align: center;
     font-family: "RobotoBold", sans-serif;
 }
 
-.section-form .container .p-zag{
+.section-form .container .p-zag {
     font-size: 24px;
     text-align: center;
     font-family: "RobotoBold", sans-serif;
 }
 
-.section-form .container input{
+.section-form .container input {
     width: 550px;
     height: 50px;
     border: #623E30 3px solid;
@@ -432,37 +436,37 @@ p{
     padding-left: 2%;
 }
 
-.section-form .container .vvod p{
+.section-form .container .vvod p {
     font-size: 20px;
     margin-bottom: 10px;
 }
 
-.section-form .container .politica{
+.section-form .container .politica {
     font-size: 14px;
     text-align: center;
     width: 80%;
     margin-top: 2%;
 }
 
-.section-form .container{
+.section-form .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
 
-.section-form .container form{
+.section-form .container form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 
-.section-form .container .vvod{
+.section-form .container .vvod {
     margin-top: 3%;
 }
 
-.section-form .container form button{
+.section-form .container form button {
     width: 375px;
     height: 60px;
     color: white;
@@ -473,25 +477,25 @@ p{
     margin-top: 3%;
 }
 
-.section-form .container form button:hover{
+.section-form .container form button:hover {
     background-color: #E2B551;
     transition: .5s;
 }
 
 /* SECTION BOOKS */
 
-.section-books{
+.section-books {
     margin-top: 5%;
 }
 
-.section-books .container h2{
+.section-books .container h2 {
     font-size: 48px;
     color: #E2B551;
     text-align: center;
     font-family: "RobotoBold", sans-serif;
 }
 
-.section-books .container .cards .card{
+.section-books .container .cards .card {
     width: 350px;
     height: 262px;
     border: #623E30 solid 4px;
@@ -502,19 +506,19 @@ p{
 
 }
 
-.section-books .container .cards .card h4{
+.section-books .container .cards .card h4 {
     font-size: 26px;
     font-family: "RobotoBold", sans-serif;
     color: #623E30;
 }
 
-.section-books .container .cards .card p{
+.section-books .container .cards .card p {
     font-size: 18px;
     color: #623E30;
     font-weight: 600;
 }
 
-.section-books .container .cards .card a{
+.section-books .container .cards .card a {
     align-self: center;
     text-align: center;
     text-decoration: none;
@@ -525,65 +529,65 @@ p{
     margin-top: 3%;
 }
 
-.section-books .container .cards .card a p{
+.section-books .container .cards .card a p {
     margin-bottom: 0px;
 }
 
-.section-books .container .cards{
+.section-books .container .cards {
     margin-top: 4%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.section-books .container .cards .card:nth-child(2) a{
+.section-books .container .cards .card:nth-child(2) a {
     margin-top: 20%;
 }
 
 /* SECTION CARD */
 
-.section-card{
+.section-card {
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
 /* FOOTER */
 
-footer{
+footer {
     padding: 2%;
     background-color: #fbf4e5;
 }
 
-footer .container{
+footer .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-footer .container .text{
+footer .container .text {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-footer .container .icons{
+footer .container .icons {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 15%;
 }
 
-footer .container .text p{
+footer .container .text p {
     font-size: 20px;
 }
 
-footer .container .ip-p{
+footer .container .ip-p {
     font-size: 24px;
 }
 
 /* SECTION HOME */
 
-.section-home .modal-dialog{
+.section-home .modal-dialog {
     max-width: 1550px;
     max-height: 890px;
     width: 100%;
@@ -593,11 +597,11 @@ footer .container .ip-p{
     justify-content: center;
 }
 
-.section-home .modal-content{
+.section-home .modal-content {
     height: 100%;
 }
 
-.section-home .modal-content h2{
+.section-home .modal-content h2 {
     font-size: 48px;
     font-family: "RobotoBold", sans-serif;
     text-align: center;
@@ -605,38 +609,38 @@ footer .container .ip-p{
     align-self: center;
 }
 
-.section-home .modal-content .modal-header{
+.section-home .modal-content .modal-header {
     border-bottom: none;
     display: flex;
     justify-content: end;
 }
 
-.section-home .modal-content .modal-header a{
+.section-home .modal-content .modal-header a {
     text-decoration: underline;
     color: #623E30;
     font-size: 22px;
 }
 
-.section-home .modal-content .modal-body .p-zag{
+.section-home .modal-content .modal-body .p-zag {
     font-size: 24px;
     font-family: "RobotoBold", sans-serif;
     text-align: center;
 }
 
-.section-home .modal-content .modal-body input{
+.section-home .modal-content .modal-body input {
     width: 550px;
     height: 50px;
     border: #623E30 3px solid;
     color: #623E30;
 }
 
-.section-home .modal-content .modal-body label{
+.section-home .modal-content .modal-body label {
     font-size: 20px;
     font-family: "RobotoBold", sans-serif;
     color: #623E30;
 }
 
-.section-home .modal-content .modal-body .btn-success{
+.section-home .modal-content .modal-body .btn-success {
     width: 375px;
     height: 60px;
     background-color: #623E30;
@@ -647,34 +651,34 @@ footer .container .ip-p{
     border: none;
 }
 
-.section-home .modal-content .modal-body .btn-success:hover{
+.section-home .modal-content .modal-body .btn-success:hover {
     background-color: #E2B551;
     transition: .5s;
 }
 
-.section-home .modal-content .modal-body .politica{
+.section-home .modal-content .modal-body .politica {
     width: 60%;
     text-align: center;
 }
 
-.section-home .modal-content .modal-body{
+.section-home .modal-content .modal-body {
     padding-top: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.section-home .modal-content .modal-body form{
+.section-home .modal-content .modal-body form {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.section-home .modal-content .modal-body form .vvod{
+.section-home .modal-content .modal-body form .vvod {
     margin-top: 1.5%;
 }
 
-.section-home .container .btn-primary{
+.section-home .container .btn-primary {
     border: none;
 }
 
@@ -685,11 +689,12 @@ footer .container .ip-p{
         width: 1440px;
     }
 
-    .section-about .container .education .name{
+    .section-about .container .education .name {
         width: 28%;
     }
 
-    .section-about .container .education .road .text p, .section-about .container .education .road .last-p{
+    .section-about .container .education .road .text p,
+    .section-about .container .education .road .last-p {
         font-size: 17px;
     }
 
@@ -697,15 +702,15 @@ footer .container .ip-p{
         width: 50%;
     }
 
-    .section-about .container .clients .name{
+    .section-about .container .clients .name {
         width: 23%;
     }
 
-    .section-about .container .publication .name p{
+    .section-about .container .publication .name p {
         margin-bottom: 0px;
     }
 
-    .section-about .container .publication .name{
+    .section-about .container .publication .name {
         width: 27%;
     }
 
@@ -727,11 +732,11 @@ footer .container .ip-p{
         width: 1140px;
     }
 
-    .section-navigation .container .text-1 p{
+    .section-navigation .container .text-1 p {
         font-size: 20px;
     }
 
-    .section-home .container .photo img{
+    .section-home .container .photo img {
         width: 100%;
     }
 
@@ -739,44 +744,44 @@ footer .container .ip-p{
         width: 40%;
     }
 
-    .section-home .container .photo p{
+    .section-home .container .photo p {
         font-size: 20px;
     }
 
-    .section-home .container .text h3{
+    .section-home .container .text h3 {
         font-size: 36px;
     }
 
-    .section-home .container .text span p{
+    .section-home .container .text span p {
         font-size: 20px;
     }
 
-    .section-home .container .text p{
+    .section-home .container .text p {
         font-size: 20px;
     }
 
-    .section-home .modal-dialog{
+    .section-home .modal-dialog {
         max-width: 900px;
         max-height: 600px;
     }
 
-    .section-home .modal-content .modal-body{
+    .section-home .modal-content .modal-body {
         padding-top: 0;
     }
 
-    .section-home .modal-content h2{
+    .section-home .modal-content h2 {
         font-size: 36px;
     }
 
-    .section-home .modal-content .modal-body .p-zag{
+    .section-home .modal-content .modal-body .p-zag {
         font-size: 20px;
     }
 
-    .section-home .modal-content .modal-header a{
+    .section-home .modal-content .modal-header a {
         font-size: 18px;
     }
 
-    .section-home .modal-content .modal-body label{
+    .section-home .modal-content .modal-body label {
         font-size: 16px;
     }
 
@@ -784,7 +789,8 @@ footer .container .ip-p{
         width: 33%;
     }
 
-    .section-about .container .education .road .text p, .section-about .container .education .road .last-p {
+    .section-about .container .education .road .text p,
+    .section-about .container .education .road .last-p {
         font-size: 16px;
     }
 
@@ -796,11 +802,11 @@ footer .container .ip-p{
         width: 27%;
     }
 
-    .section-about .container .clients span p{
+    .section-about .container .clients span p {
         font-size: 22px;
     }
 
-    .section-about .container .clients .imgs{
+    .section-about .container .clients .imgs {
         flex-wrap: wrap;
         justify-content: space-around;
     }
@@ -809,7 +815,8 @@ footer .container .ip-p{
         width: 32%;
     }
 
-    .section-about .container .publication span p, .section-about .container .publication .book p{
+    .section-about .container .publication span p,
+    .section-about .container .publication .book p {
         font-size: 22px;
     }
 
@@ -817,44 +824,44 @@ footer .container .ip-p{
         font-size: 18px;
     }
 
-    .section-yslyg .container .cards .card .bottom-p{
+    .section-yslyg .container .cards .card .bottom-p {
         font-size: 14px;
     }
 
-    .section-otziv .container .slide .telo span p{
+    .section-otziv .container .slide .telo span p {
         font-size: 19px;
     }
 
-    .section-otziv .container .slide .telo p{
+    .section-otziv .container .slide .telo p {
         font-size: 15px;
     }
 
-    .section-form .container .p-zag{
+    .section-form .container .p-zag {
         font-size: 20px;
     }
 
-    .section-form .container .vvod p{
+    .section-form .container .vvod p {
         font-size: 16px;
     }
 
-    .section-books .container .cards{
+    .section-books .container .cards {
         flex-wrap: wrap;
         justify-content: space-around;
     }
 
-    .section-books .container .cards .card:nth-child(3){
+    .section-books .container .cards .card:nth-child(3) {
         margin-top: 3%;
     }
 
-    .section-books .container .cards .card h4{
+    .section-books .container .cards .card h4 {
         font-size: 24px;
     }
 
-    .section-books .container .cards .card p{
+    .section-books .container .cards .card p {
         font-size: 16px;
     }
 
-    .section-books .container .cards .card:nth-child(3) a{
+    .section-books .container .cards .card:nth-child(3) a {
         margin-top: 10%;
     }
 
@@ -866,19 +873,254 @@ footer .container .ip-p{
         font-size: 16px;
     }
 
-    footer .container .icons img{
+    footer .container .icons img {
         width: 40px;
         height: 40px;
     }
 
-    h2{
+    h2 {
         font-size: 36px !important;
     }
 
-}    
+}
 
 @media (max-width: 992px) {
     .container {
         width: 960px;
+    }
+
+    .section-navigation .container .nav-comp {
+        display: none;
+    }
+
+    .section-navigation .container nav {
+        display: block;
+    }
+
+    .section-navigation .container .navbar h5 {
+        font-size: 24px;
+        font-family: "RobotoBold", sans-serif;
+        color: #623E30;
+        text-decoration: underline;
+    }
+
+    .section-navigation .container .navbar .nav-link {
+        color: #623E30;
+        font-size: 18px;
+    }
+
+    .section-navigation .container .navbar .container-fluid {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .section-home {
+        margin-top: 20%;
+    }
+
+    .section-home .container .text h3 {
+        font-size: 26px;
+    }
+
+    .section-home .container .text span p {
+        font-size: 16px;
+    }
+
+    .section-home .container .text p {
+        font-size: 16px;
+    }
+
+    .section-home .container .photo p {
+        font-size: 16px;
+    }
+
+    .section-home .container .text button {
+        width: 200px;
+        height: 45px;
+        font-size: 20px;
+    }
+
+    .section-home .modal-dialog {
+        max-width: 700px;
+        max-height: 550px;
+    }
+
+    .section-home .modal-content .modal-header a {
+        font-size: 16px;
+    }
+
+    .section-home .modal-content h2 {
+        font-size: 30px !important;
+    }
+
+    .section-home .modal-content .modal-body .p-zag {
+        font-size: 18px;
+    }
+
+    .section-home .modal-content .modal-body input {
+        width: 400px;
+        height: 40px;
+    }
+
+    .section-home .modal-content .modal-body label {
+        font-size: 14px;
+    }
+
+    .section-home .modal-content .modal-body .btn-success {
+        width: 300px;
+        height: 50px;
+        font-size: 20px;
+        margin-top: 2%;
+    }
+
+    .section-home .modal-content .modal-body .politica {
+        font-size: 12px;
+    }
+
+    .section-home .modal-content .modal-body form .vvod {
+        margin-top: 1%;
+    }
+
+    .section-about .container .education .stroke img {
+        width: 25%;
+    }
+
+    .section-about .container .education .road .text p,
+    .section-about .container .education .road .last-p {
+        font-size: 12px;
+    }
+
+    .section-about .container .education .road .punkt {
+        width: 15px;
+        height: 15px;
+    }
+
+    .section-about .container .education .road .text {
+        width: 35%;
+    }
+
+    .section-about .container .education .name img,
+    .section-about .container .expertision .name img,
+    .section-about .container .clients .name img,
+    .section-about .container .publication .name img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .section-about .container .education .name p,
+    .section-about .container .expertision .name p,
+    .section-about .container .clients .name p,
+    .section-about .container .publication .name p {
+        font-size: 25px;
+        margin-bottom: 0px;
+    }
+
+    .section-about .container .expertision .blocks .block{
+        width: 300px;
+        height: 200px;
+    }
+
+    .section-about .container .expertision .blocks .block .text-p{
+        font-size: 13px;
+    }
+
+    .section-about .container .expertision .blocks .block span p{
+        font-size: 26px;
+    }
+
+    .section-about .container .clients span p {
+        font-size: 18px;
+    }
+
+    .section-about .container .clients .imgs img{
+        width: 25%;
+    }
+
+    .section-about .container .publication span p, .section-about .container .publication .book p{
+        font-size: 18px;
+    }
+
+    .section-about .container .publication .book img{
+        width: 250px;
+    }
+
+    h2{
+        font-size: 30px !important;
+    }
+
+    .section-yslyg .container .cards .card .top p {
+        font-size: 14px;
+    }
+
+    .section-yslyg .container .cards .card .bottom-p {
+        font-size: 12px;
+    }
+
+    .section-otziv .container .slide .telo span p {
+        font-size: 16px;
+    }
+
+    .section-otziv .container .slide .telo p {
+        font-size: 12px;
+    }
+
+    .section-otziv .container .slide .carousel-indicators button{
+        width: 25px;
+        height: 25px;
+    }
+
+    .section-otziv .container .slide .carousel-item {
+        height: 600px;
+    }
+
+    .section-form .container .p-zag {
+        font-size: 18px;
+    }
+
+    .section-form .container input{
+        width: 500px;
+        height: 45px;
+    }
+
+    .section-form .container .vvod p {
+        font-size: 14px;
+    }
+
+    .section-form .container form button{
+        width: 300px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .section-form .container .politica{
+        font-size: 12px;
+    }
+
+    .section-books .container .cards .card{
+        width: 300px;
+        height: 200px;
+    }
+
+    .section-books .container .cards .card h4 {
+        font-size: 20px;
+    }
+
+    .section-books .container .cards .card p {
+        font-size: 14px;
+    }
+
+    footer .container .text p {
+        font-size: 12px;
+    }
+
+    footer .container .ip-p {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 98%;
     }
 }
