@@ -1015,16 +1015,16 @@ footer .container .ip-p {
         margin-bottom: 0px;
     }
 
-    .section-about .container .expertision .blocks .block{
+    .section-about .container .expertision .blocks .block {
         width: 300px;
         height: 200px;
     }
 
-    .section-about .container .expertision .blocks .block .text-p{
+    .section-about .container .expertision .blocks .block .text-p {
         font-size: 13px;
     }
 
-    .section-about .container .expertision .blocks .block span p{
+    .section-about .container .expertision .blocks .block span p {
         font-size: 26px;
     }
 
@@ -1032,19 +1032,20 @@ footer .container .ip-p {
         font-size: 18px;
     }
 
-    .section-about .container .clients .imgs img{
+    .section-about .container .clients .imgs img {
         width: 25%;
     }
 
-    .section-about .container .publication span p, .section-about .container .publication .book p{
+    .section-about .container .publication span p,
+    .section-about .container .publication .book p {
         font-size: 18px;
     }
 
-    .section-about .container .publication .book img{
+    .section-about .container .publication .book img {
         width: 250px;
     }
 
-    h2{
+    h2 {
         font-size: 30px !important;
     }
 
@@ -1064,7 +1065,7 @@ footer .container .ip-p {
         font-size: 12px;
     }
 
-    .section-otziv .container .slide .carousel-indicators button{
+    .section-otziv .container .slide .carousel-indicators button {
         width: 25px;
         height: 25px;
     }
@@ -1077,7 +1078,7 @@ footer .container .ip-p {
         font-size: 18px;
     }
 
-    .section-form .container input{
+    .section-form .container input {
         width: 500px;
         height: 45px;
     }
@@ -1086,17 +1087,17 @@ footer .container .ip-p {
         font-size: 14px;
     }
 
-    .section-form .container form button{
+    .section-form .container form button {
         width: 300px;
         height: 50px;
         font-size: 20px;
     }
 
-    .section-form .container .politica{
+    .section-form .container .politica {
         font-size: 12px;
     }
 
-    .section-books .container .cards .card{
+    .section-books .container .cards .card {
         width: 300px;
         height: 200px;
     }
@@ -1120,6 +1121,263 @@ footer .container .ip-p {
 }
 
 @media (max-width: 768px) {
+    .container {
+        width: 98%;
+    }
+
+    .section-home {
+        margin-top: 30%;
+    }
+
+    .section-home .container {
+        flex-direction: column;
+    }
+
+    .section-home .container .photo p {
+        display: none;
+    }
+
+    .section-home .container .text {
+        width: 85%;
+        margin-top: 5%;
+    }
+
+    .section-home .container .photo {
+        width: 50%;
+    }
+
+    .section-home .container .text button {
+        margin-top: 3%;
+    }
+
+    .section-about .container .education .stroke img,
+    .section-about .container .education .road .arrow {
+        display: none;
+    }
+
+    .section-about .container .education .road .text {
+        width: 45%;
+    }
+
+    .section-about .container .education .road .text p {
+        margin-top: 5%;
+    }
+
+    .section-about .container .education .road .last-p {
+        width: 40%;
+    }
+
+    .section-about .container .education .road {
+        margin-top: 0;
+    }
+
+    .section-about .container .education .name {
+        width: 40%;
+    }
+
+    .section-about .container .education .name p,
+    .section-about .container .expertision .name p,
+    .section-about .container .clients .name p,
+    .section-about .container .publication .name p {
+        font-size: 22px;
+    }
+
+    .section-about .container .expertision .name {
+        width: 72%;
+    }
+
+    .section-about .container .expertision .blocks .block {
+        width: 225px;
+        height: 175px;
+        border: 3px solid #623E30;
+    }
+
+    .section-about .container .expertision .blocks .block .text-p {
+        font-size: 12px;
+    }
+
+    .section-about .container .expertision .blocks .block span p {
+        font-size: 24px;
+    }
+
+    .section-about .container .clients .name {
+        width: 32%;
+    }
+
+    .section-about .container .clients span p {
+        font-size: 14px;
+    }
+
+    .section-about .container .clients .imgs img {
+        width: 30%;
+        margin-top: 3%;
+    }
+
+    .section-about .container .clients .imgs {
+        margin-top: 0;
+    }
+
+    .section-about .container .publication span p,
+    .section-about .container .publication .book p {
+        font-size: 14px;
+    }
+
+    .section-about .container .publication .book p{
+        width: 75%;
+    }
+
+    .section-about .container .publication .book img {
+        width: 200px;
+    }
+
+    .section-about .container .publication .name {
+        width: 38%;
+    }
+
+    .section-yslyg .container .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-yslyg .container .cards .card{
+        width: 90%;
+    }
+
+    .section-otziv .container .slide .telo p{
+        width: 90%;
+    }
+
+    .section-otziv .container .slide .telo span p{
+        font-size: 14px;
+    }
+
+    .section-otziv .container .slide .telo p {
+        font-size: 10px;
+    }
+
+    .section-otziv .container .slide .carousel-item {
+        height: 500px;
+    }
+
+    .section-otziv .container .slide .carousel-indicators button {
+        width: 20px;
+        height: 20px;
+    }
+
+    h2{
+        font-size: 26px !important;
+    }
+
+    .section-form .container .p-zag {
+        font-size: 16px;
+    }
+
+    .section-form .container input {
+        width: 450px;
+        height: 40px;
+    }
+
+    .section-form .container .vvod p {
+        font-size: 13px;
+    }
+
+    .section-form .container form button {
+        width: 250px;
+        height: 45px;
+        font-size: 18px;
+    }
+
+    .section-form .container .politica {
+        font-size: 10px;
+    }
+
+    .section-books .container .cards .card {
+        width: 225px;
+        height: 175px;
+        border: 3px solid #623E30;
+    }
+
+    .section-books .container .cards .card h4 {
+        font-size: 16px;
+    }
+
+    .section-books .container .cards .card p {
+        font-size: 12px;
+    }
+
+    footer .container .ip-p {
+        font-size: 12px;
+    }
+
+    footer .container .text p {
+        font-size: 10px;
+    }
+
+    footer .container .icons img {
+        width: 30px;
+        height: 30px;
+    }
+
+    footer .container .icons{
+        width: 20%;
+    }
+
+    .section-home .modal-dialog {
+        max-width: 450px;
+        max-height: 550px;
+    }
+
+    .section-home .modal-content h2{
+        font-size: 22px !important;
+    }
+
+    .section-home .modal-content .modal-body .p-zag {
+        font-size: 14px;
+    }
+
+    .section-home .modal-content .modal-header a {
+        font-size: 13px;
+    }
+
+    .section-home .modal-content .modal-body input {
+        width: 300px;
+        height: 35px;
+    }
+
+    .section-home .modal-content .modal-body label {
+        font-size: 13px;
+    }
+
+    .section-home .modal-content .modal-body .btn-success {
+        width: 250px;
+        height: 45px;
+        font-size: 18px;
+        margin-top: 2%;
+    }
+
+    .section-home .modal-content .modal-body .politica {
+        font-size: 10px;
+        width: 80%;
+    }
+
+    .section-navigation .container .navbar h5{
+        font-size: 22px;
+    }
+
+    .section-navigation .container .navbar .nav-link {
+        font-size: 16px;
+    }
+
+    .section-yslyg .container .cards .card{
+        margin-top: 5%;
+    }
+
+    
+
+
+}
+
+@media (max-width: 576px) {
     .container {
         width: 98%;
     }
